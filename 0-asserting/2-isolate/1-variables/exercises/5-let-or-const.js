@@ -19,26 +19,35 @@ console.log('-- begin --');
 
 */
 
-_;
+// _;
+let furniture = 'chair';
 console.log(furniture); // should log 'chair'
 
-_;
+// _;
+let building = 'house';
 console.log(building); // should log 'house'
 
 furniture = 'table';
-console.log(_); // should log 'table'
+// console.log(_); should log 'table' 
+console.log(furniture); 
 
-_;
+// _;
+let food;
 console.log(food); // should log undefined
 
-_;
+// _;
+food = 'apple';
 console.log(food); // should log 'apple'
 
-console.log(_); // should log 'house'
+// console.log(_);  should log 'house'
+console.log(building);
 
-console.log(_); // should log 'table'
+// console.log(_);  should log 'table'
+console.log(furniture);
 
-_;
-console.log(_); // should log 'apple, pear'
+// _;
+const fruit = 'pear';
+// console.log(_);  should log 'apple, pear'
+console.log(food + ',' + ' ' + fruit);
 
 console.log('-- end --');

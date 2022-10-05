@@ -36,6 +36,8 @@ if (typeof value === 'number') {
   path = 'if';
 }
 
+
+
 // show each step that's happening behind the scenes
 const valueIsANumber = typeof value === 'number';
 const conditionIsTruthy = valueIsANumber === true;
@@ -46,3 +48,15 @@ if (conditionIsTruthy) {
 console.log(path);
 
 console.log('-- end --');
+
+let age = 10;
+
+if (age > 18) {
+  console.log('you know that you can drink alchohol');
+}
+else if (age === 18) {
+  console.log('You can start to drink but maybe you shouldn\'t');
+}
+else {
+  console.log('you cannot drink alchohol');
+}
