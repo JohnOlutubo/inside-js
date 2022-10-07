@@ -19,27 +19,38 @@ console.log('-- begin --');
 
 */
 
-__;
+// __;
+let aTree = '';
 console.assert(aTree === '', 'Test 1');
 
 aTree = 'birch';
-console.assert(__ === __, 'Test 2');
+// console.assert(__ === __, 'Test 2');
+console.assert(aTree === 'birch', 'Test 2');
 
-__;
+// __;
+const turtle = 'myrtle';
 console.assert(turtle === 'myrtle', 'Test 3');
 
-__;
+//__;
+aTree = 'aspen';
 console.assert(aTree === 'aspen', 'Test 4');
 
-__;
+// __;
+let aColor = 'blue';
 console.assert(aColor === 'blue', 'Test 5');
 
-console.assert(turtle === __, 'Test 6');
 
-__ = 'oak';
-console.assert(aTree === __, 'Test 7');
+//console.assert(turtle === __, 'Test 6');
+console.assert(turtle === 'myrtle', 'Test 6');
 
-aColor = __;
-console.assert(__ === 'orange', 'Test 8');
+// __ = 'oak';
+aTree = 'oak';
+//console.assert(aTree === __, 'Test 7');
+console.assert(aTree === 'oak', 'Test 7');
+
+// aColor = __;
+aColor = 'orange';
+// console.assert(__ === 'orange', 'Test 8');
+console.assert(aColor === 'orange', 'Test 8');
 
 console.log('-- end --');
