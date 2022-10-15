@@ -20,6 +20,7 @@ func1(callStackRoot + 1);
 
 const func2 = (depth) => {
   console.log('entering func 2');
+  /* console.log('value of depth in func 2:', depth); */
   func1(depth + 1);
   console.log('leaving func 2');
 };
@@ -31,6 +32,7 @@ func2(callStackRoot + 1);
 
 const func3 = (depth) => {
   console.log('entering func 3');
+ /* console.log('value of depth in func 3:', depth); */
   func2(depth + 1);
   console.log('leaving func 3');
 };

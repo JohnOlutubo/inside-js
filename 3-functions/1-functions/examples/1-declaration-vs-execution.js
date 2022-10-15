@@ -17,3 +17,28 @@ iExist();
 // there are 3 logs, and one console.log in the source code
 //  console.log is not run when the function is DECLARED
 //  but it is run each time the function is EXECUTED
+
+//_________________________________________________________________________
+// 9/10/2022 examples in class
+
+function myFirstFunction (name, age) {
+  if(age >= 18) {
+    console.log('you can drive ' + name);
+  } else {
+    console.log(`You can NOT drive ${name}`);
+  }
+}
+
+myFirstFunction('Jane', 16)
+
+const myArrowFunction = (name, age) => {
+if(age >= 18) {
+    console.log('you can drive ' + name);
+  } else {
+    console.log(`You can NOT drive ${name}`);
+  }
+}
+
+myArrowFunction('John', 25)
+
+const global 
